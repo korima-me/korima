@@ -1,0 +1,15 @@
+{
+	"app_name": "korima",
+	"slogan_title": "Organize your",
+	"slogan_keywords": {
+		"0": "studies",
+		"1": "life"
+	},
+	"account": {
+		"new": {
+			"explain": "Open an account in minutes and bring order in your life",
+			"start": "Get Started",
+			"hint": "It's free"
+		}
+	}
+}
