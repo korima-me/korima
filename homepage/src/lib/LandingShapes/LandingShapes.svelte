@@ -6,6 +6,7 @@
 	import { tweened } from 'svelte/motion';
 	import { quadInOut } from 'svelte/easing';
 	import anime from 'animejs/lib/anime.js';
+	import { random } from 'animejs';
 	onMount(() => {
 		function randomValues() {
 			anime({
@@ -13,6 +14,7 @@
 				translateX: function () {
 					return anime.random(-500, 0);
 				},
+
 				translateY: function () {
 					return anime.random(0, 50);
 				},
@@ -21,7 +23,6 @@
 				complete: randomValues,
 			});
 		}
-
 		randomValues();
 	});
 	const sizeMax = 14,
@@ -44,19 +45,18 @@
 </script>
 
 <div class={className}>
-	<div class="circle bg-fuchsia-800" />
-	<div class="circle bg-green-500" />
-	<div class="circle bg-orange-500 important" />
-	<div class="circle bg-cyan-400" />
-	<div class="circle bg-red-500" />
-	<div class="circle bg-yellow-300" />
-	<div class="circle bg-green-500" />
-	<div class="circle bg-orange-500 important" />
-	<div class="circle bg-fuchsia-800" />
-	<div class="circle bg-red-500" />
-	<div class="circle bg-fuchsia-800" />
-	<div class="circle bg-green-500" />
-	<div class="circle bg-orange-500 important" />
+	<div id="circle1" class="circle bg-primary-focus -left-96 " />
+	<div id="circle2" class="circle bg-secondary-focus -left-52" />
+	<div class="circle bg-info important -left-80 " />
+	<div class="circle bg-success -left-36" />
+	<div id="circle3" class="circle bg-warning -left-96" />
+	<div id="circle4" class="circle bg-error" />
+	<div id="circle5" class="circle bg-primary-focus left-80" />
+	<div class="circle bg-secondary-focus important -left-96" />
+	<div class="circle bg-info -left-20" />
+	<div class="circle bg-success -left-80" />
+	<div id="circle6" class="circle bg-warning -left-56" />
+	<div id="circle7" class="circle bg-error -left-72" />
 </div>
 
 <style>
@@ -81,5 +81,10 @@
 	.circle.big::after {
 		width: 200%;
 		height: 200%;
+	}
+	@media screen and (max-width: 600px) {
+		.circle {
+			visibility: hidden;
+		}
 	}
 </style>
