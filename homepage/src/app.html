@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dracula">
+<html lang="en" data-theme="light" class="overflow-x-hidden">
 
 <head>
 	<meta charset="utf-8" />
@@ -10,20 +10,29 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	%sveltekit.head%
 </head>
-
+<style></style>
 
 <div id="navbar" class="navbar shadow-lg fixed inset-x-0  h-20 z-40 bg-base-100 top-0">
 	<div class="px-2 mx-2 navbar-start relative h-20">
 		<a href="/" class="">
 			<img class="h-10" src="../static/favicon.png" alt="Korima Logo" /></a>
+		<div class="ml-10">
+			<a href="/#overview" class="btn btn-ghost btn-sm rounded-btn normal-case"> Overview </a>
+
+			<a href="/#features" class="btn btn-ghost btn-sm rounded-btn normal-case"> Features </a>
+		</div>
 	</div>
 	<div class="navbar-end px-2 ">
-		<a href="/#overview" class="btn btn-ghost btn-sm rounded-btn"> OVERVIEW </a>
 
-		<a href="/#features" class="btn btn-ghost btn-sm rounded-btn"> FEATURES </a>
-		<a href="/#download" class="btn btn-primary btn-sm rounded-btn"> DOWNLOAD </a>
+		<a href="/contact" class="btn btn-ghost btn-sm rounded-btn normal-case mr-4">Contact Us</a>
+
+		<div class="w-px bg-slate-300 h-4 mr-4"></div>
+		<a href="/login" class=" btn btn-ghost btn-sm rounded-btn normal-case mr-4">Login</a>
+
+		<a href="/download" class="btn btn-primary btn-sm rounded-btn normal-case"> Get Started </a>
 	</div>
 </div>
+
 
 
 <body class="min-h-screen">
