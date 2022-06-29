@@ -52,9 +52,8 @@
 	<div class="p-5 ml-2 w-1/2 ">
 		<p class="text-6xl ">Overview</p>
 		<p class="mt-5 mr-36 text-base break-words pr-3.5">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />Maecenas porttitor faucibus
-			nulla, sit amet suscipit justo ultricies ut. Donec ultrices condimentum mi, ut auctor mi
-			ornare ut.
+			Organize all of your files, folders, and contacts in a graphical view. These can be brought
+			into relation to one another for recognizing associations between each element.
 		</p>
 	</div>
 	<div data-aos="fade-left" class="border mockup-window border-base-300 w-1/2 h-1/2 bg-slate-300">
@@ -70,10 +69,10 @@
 	<section id="three-info" class="flex p-20">
 		<div class="card text-center shadow-2xl">
 			<div class="card-body">
-				<h2 class="card-title">Lorem ipsum</h2>
+				<h2 class="text-xl font-bold ">Relations</h2>
 				<p>
-					Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus
-					veritatis sed molestiae voluptates incidunt iure sapiente.
+					Relations are a way to create associations between files, folders, and / or contacts. They
+					are represented by connections in a graphical interface, similar to a mind map.
 				</p>
 				<div class="justify-center card-actions">
 					<figure class="px-10 pt-10">
@@ -84,10 +83,10 @@
 		</div>
 		<div class="card text-center shadow-2xl">
 			<div class="card-body">
-				<h2 class="card-title">Lorem ipsum</h2>
+				<h2 class="text-xl font-bold">File System and Contacts</h2>
 				<p>
-					Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus
-					veritatis sed molestiae voluptates incidunt iure sapiente.
+					Korima allows for the connection of a file and contact management system. Providing a
+					organization system truer to the interconnected lives of those on the internet.
 				</p>
 				<div class="justify-center card-actions">
 					<figure class="px-10 pt-10">
@@ -98,10 +97,11 @@
 		</div>
 		<div class="card text-center shadow-2xl">
 			<div class="card-body">
-				<h2 class="card-title">Lorem ipsum</h2>
+				<h2 class="text-xl font-bold">Community Features</h2>
 				<p>
-					Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus
-					veritatis sed molestiae voluptates incidunt iure sapiente.
+					With Korima users are able to extend the source code and adjust it in a way that matches
+					their organizational preference. These changes can also be shared with the entire
+					commmunity.
 				</p>
 				<div class="justify-center card-actions">
 					<figure class="px-10 pt-10">
